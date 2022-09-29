@@ -1,0 +1,39 @@
+{
+    "streams": [{
+            "stream": {
+                "name": "current_user",
+                "json_schema": {},
+                "supported_sync_modes": ["full_refresh"]
+            },
+            "sync_mode": "full_refresh",
+            "destination_sync_mode": "overwrite"
+        },
+        {
+            "stream": {
+                "name": "current_user_guilds",
+                "json_schema": {},
+                "supported_sync_modes": ["full_refresh"]
+            },
+            "sync_mode": "full_refresh",
+            "destination_sync_mode": "overwrite"
+        },
+        {
+            "stream": {
+                "name": "guilds",
+                "json_schema": {},
+                "supported_sync_modes": ["full_refresh"]
+            },
+            "sync_mode": "full_refresh",
+            "destination_sync_mode": "overwrite"
+        },
+        {
+            "stream": {
+                "name": "guilds_members",
+                "json_schema": {},
+                "supported_sync_modes": ["full_refresh"]
+            },
+            "sync_mode": "full_refresh",
+            "destination_sync_mode": "overwrite"
+        }
+    ]
+}

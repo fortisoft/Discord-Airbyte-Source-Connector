@@ -1,0 +1,146 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": ["null", "string"]
+        },
+        "name": {
+            "type": ["null", "string"]
+        },
+        "icon": {
+            "type": ["null", "object"]
+        },
+        "description": {
+            "type": ["null", "object"]
+        },
+        "splash": {
+            "type": ["null", "string"]
+        },
+        "discovery_splash": {
+            "type": ["null", "object"]
+        },
+        "features": {
+            "type": ["null", "array"]
+        },
+        "emojis": {
+            "type": ["null", "array"]
+        },
+        "stickers": {
+            "type": ["null", "array"]
+        },
+        "banner": {
+            "type": ["null", "object"]
+        },
+        "owner_id": {
+            "type": ["null", "string"]
+        },
+        "application_id": {
+            "type": ["null", "object"]
+        },
+        "region": {
+            "type": ["null", "string"]
+        },
+        "afk_channel_id": {
+            "type": ["null", "object"]
+        },
+        "afk_timeout": {
+            "type": ["null", "integer"]
+        },
+        "system_channel_id": {
+            "type": ["null", "string"]
+        },
+        "widget_enabled": {
+            "type": ["null", "boolean"]
+        },
+        "widget_channel_id": {
+            "type": ["null", "object"]
+        },
+        "verification_level": {
+            "type": ["null", "integer"]
+        },
+        "roles": {
+            "type": ["null", "array"],
+            "items": {
+                "type": ["null", "object"],
+                "properties": {
+                    "id": {
+                        "type": ["null", "string"]
+                    },
+                    "name": {
+                        "type": ["null", "string"]
+                    },
+                    "permissions": {
+                        "type": ["null", "integer"]
+                    },
+                    "position": {
+                        "type": ["null", "integer"]
+                    },
+                    "color": {
+                        "type": ["null", "integer"]
+                    },
+                    "hoist": {
+                        "type": ["null", "boolean"]
+                    },
+                    "managed": {
+                        "type": ["null", "boolean"]
+                    },
+                    "mentionable": {
+                        "type": ["null", "boolean"]
+                    },
+                    "icon": {
+                        "type": ["null", "object"]
+                    },
+                    "unicode_emoji": {
+                        "type": ["null", "object"]
+                    },
+                    "flags": {
+                        "type": ["null", "integer"]
+                    },
+                    "permissions_new": {
+                        "type": ["null", "string"]
+                    }
+                }
+            }
+        },
+        "default_message_notifications": {
+            "type": ["null", "integer"]
+        },
+        "mfa_level": {
+            "type": ["null", "integer"]
+        },
+        "explicit_content_filter": {
+            "type": ["null", "integer"]
+        },
+        "max_presences": {
+            "type": ["null", "object"]
+        },
+        "max_members": {
+            "type": ["null", "integer"]
+        },
+        "max_video_channel_users": {
+            "type": ["null", "integer"]
+        },
+        "vanity_url_code": {
+            "type": ["null", "string"]
+        },
+        "premium_tier": {
+            "type": ["null", "integer"]
+        },
+        "premium_subscription_count": {
+            "type": ["null", "integer"]
+        },
+        "system_channel_flags": {
+            "type": ["null", "integer"]
+        },
+        "preferred_locale": {
+            "type": ["null", "string"]
+        },
+        "rules_channel_id": {
+            "type": ["null", "object"]
+        },
+        "public_updates_channel_id": {
+            "type": ["null", "object"]
+        }
+    }
+}

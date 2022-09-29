@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "avatar": {
+            "type": ["null", "object"]
+        },
+        "communication_disabled_until": {
+            "type": ["null", "object"]
+        },
+        "flags": {
+            "type": ["null", "integer"]
+        },
+        "is_pending": {
+            "type": ["null", "boolean"]
+        },
+        "joined_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "nick": {
+            "type": ["null", "object"]
+        },
+        "pending": {
+            "type": ["null", "boolean"]
+        },
+        "premium_since": {
+            "type": ["null", "object"]
+        },
+        "roles": {
+            "type": ["null", "array"]
+        },
+        "user": {
+            "type": ["null", "object"],
+            "properties": {
+                "id": {
+                    "type": ["null", "string"]
+                },
+                "username": {
+                    "type": ["null", "string"]
+                },
+                "avatar": {
+                    "type": ["null", "object"]
+                },
+                "avatar_decoration": {
+                    "type": ["null", "object"]
+                },
+                "discriminator": {
+                    "type": ["null", "string"]
+                },
+                "public_flags": {
+                    "type": ["null", "integer"]
+                }
+            }
+        },
+        "mute": {
+            "type": ["null", "boolean"]
+        },
+        "deaf": {
+            "type": ["null", "boolean"]
+        }
+    }
+}

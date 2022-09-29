@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": ["null", "string"]
+        },
+        "username": {
+            "type": ["null", "string"]
+        },
+        "avatar": {
+            "type": ["null", "object"]
+        },
+        "avatar_decoration": {
+            "type": ["null", "object"]
+        },
+        "discriminator": {
+            "type": ["null", "string"]
+        },
+        "public_flags": {
+            "type": ["null", "integer"]
+        },
+        "flags": {
+            "type": ["null", "integer"]
+        },
+        "bot": {
+            "type": ["null", "boolean"]
+        },
+        "banner": {
+            "type": ["null", "object"]
+        },
+        "banner_color": {
+            "type": ["null", "object"]
+        },
+        "accent_color": {
+            "type": ["null", "object"]
+        },
+        "bio": {
+            "type": ["null", "string"]
+        },
+        "locale": {
+            "type": ["null", "string"]
+        },
+        "mfa_enabled": {
+            "type": ["null", "boolean"]
+        },
+        "email": {
+            "type": ["null", "string"]
+        },
+        "verified": {
+            "type": ["null", "boolean"]
+        }
+    }
+}
